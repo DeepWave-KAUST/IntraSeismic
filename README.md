@@ -1,6 +1,6 @@
 # IntraSeismic
 
-This repository provides reproducible materials for **DW0026 - IntraSeismic: Using Coordinate-Based Learning for Seismic Inversion** by authors Romero J., Heidrich W., Luiken N., and Ravasi M.
+This repository provides reproducible materials for **Seismic reservoir characterization with implicit neural representations** by authors Romero J., Heidrich W., Luiken N., and Ravasi M.
 
 
 ## Project Structure
