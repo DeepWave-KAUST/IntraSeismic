@@ -6,9 +6,9 @@ This repository provides reproducible materials for **Seismic reservoir characte
 ## Project Structure
 The repository is organized as follows:
 
-* :open_file_folder: **intraseismic**: A Python library that includes routines for dataset management, diferent types of coordinates encoding, the IntraSeismic model, train functions, and plotting functions.
+* :open_file_folder: **intraseismic**: A Python library that includes routines for dataset management, different types of coordinates encoding, the IntraSeismic model, train functions, and plotting functions.
 * :open_file_folder: **data**: A folder containing the data or instructions on how to obtain it.
-* :open_file_folder: **notebooks**: A collection of Jupyter notebooks that document the application of IntraSesimic to the inversion of Marmousi, SEAM, and Sleipner datasets.
+* :open_file_folder: **notebooks**: Jupyter notebooks that document the application of IntraSesimic to the inversion of the synthetic Marmousi data.
 
 ## Notebooks
 The provided notebooks include:
@@ -18,13 +18,7 @@ The provided notebooks include:
   - :orange_book: ``Poststack_IS_Marm.ipynb``: Demonstrates the inversion of Marmousi seismic data with a noise level of $\sigma = 0.1$ using IntraSeismic.
   - :orange_book: ``Poststack_IS_Marm_MCUQ.ipynb``: Conducts Monte-Carlo Dropout uncertainty quantification in IntraSeismic.
   - :orange_book: ``Prestack_IS_3nets_Marm.ipynb``: Pre-stack seismic inversion of Marmousi model using IntraSeismic.
-  
-* :open_file_folder: **SEAM**
-  - :orange_book: ``SEAM_data_creation.ipynb``: Creates post-stack synthetic seismic datasets with various noise levels for the SEAM model.
-  - :orange_book: ``Poststack_IS_SEAM.ipynb``: Shows the inversion of SEAM seismic data with a noise level of $\sigma = 0.1$ using IntraSeismic.
 
-* :open_file_folder: **Sleipner**
-  - :orange_book: ``Poststack_IS_Sleipner.ipynb``: Demonstrates the inversion of the Sleipner seismic dataset using IntraSeismic.
 
 ## Getting Started :space_invader: :robot:
 To reproduce the results, use the `environment.yml` file for environment setup.
@@ -48,5 +42,3 @@ conda activate my_env
 ```
 
 **Disclaimer:** Experiments were conducted on an AMD EPYC 7713 64-Core processor equipped with a single NVIDIA TESLA A100. Different hardware may require alternate environment configurations.
-
-
